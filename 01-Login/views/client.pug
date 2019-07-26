@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  each value, index in clientRules
+    h4= index
+      ul
+        li= value
+
